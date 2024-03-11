@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<docinfo>
+    <macros>
+      \newcommand{\N}{\mathbb N}
+      \newcommand{\Z}{\mathbb Z}
+      \newcommand{\R}{\mathbb R}
+      \newcommand{\Q}{\mathbb Q}
+      \newcommand{\mynot}{\neg}
+      \newcommand{\card}{\mathbf{card}}
+      \newcommand{\x}{:}
+      \newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+      \DeclarePairedDelimiter\abs{\lvert}{\rvert}
+    </macros>
+    <latex-image-preamble>
+      \usepackage{tikz}
+      \usepackage{tkz-graph}
+      \usepackage{tkz-euclide}
+      \usetikzlibrary{patterns}
+      \usetikzlibrary{positioning}
+      \usetikzlibrary{matrix,arrows}
+      \usetikzlibrary{calc}
+      \usetikzlibrary{shapes}
+      \usetikzlibrary{through,intersections,decorations,shadows,fadings}
+      \usepackage{pgfplots}
+      \usepackage{mathrsfs}
+      <!-- \usepackage{setspace}
+      \usepackage{newtxtext, newtxmath} -->
+    </latex-image-preamble>
+
+    <rename element="inlineexercise" xml:lang="en-US">Progress Check</rename>
+    <rename element="worksheetexercise" xml:lang="en-US">Exercise</rename>
+    <rename element="worksheet" xml:lang="en-US">Beginning Activity</rename>
+    <rename element="assemblage" xml:lang="en-US">Definition</rename>
+
+    
+  </docinfo>
